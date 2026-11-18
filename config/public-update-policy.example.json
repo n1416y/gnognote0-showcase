@@ -1,0 +1,12 @@
+{
+  "schema": "gnognote0.showcase.local-policy.v1",
+  "source_root": "<LOCAL_SOURCE_ROOT>",
+  "manifest_search_dir": "<LOCAL_MANIFEST_DIRECTORY>",
+  "manifest_filename_pattern": "<LOCAL_BASELINE_PATTERN_WITH_NUMERIC_VERSION>",
+  "verifier_module": "<LOCAL_VERIFIER_MODULE>",
+  "verifier_function": "verify_manifest",
+  "audit_path": "<LOCAL_PRIVATE_AUDIT_FILE>",
+  "publishing_enabled": false,
+  "expected_remote": "https://github.com/n1416y/gnognote0-showcase.git",
+  "approved_public_entries": []
+}

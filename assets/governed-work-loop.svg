@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+<title id="title">A governed autonomous work loop</title>
+<desc id="desc">An original illustration connecting discovery, a policy governor, bounded work, independent checks, and a durable record, with an explicit stop path.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#1d3150"/></linearGradient>
+  <linearGradient id="line" x1="0" x2="1"><stop stop-color="#7dd3fc"/><stop offset="1" stop-color="#c4b5fd"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="960" height="540" rx="34" fill="url(#bg)"/>
+<path d="M130 260 C190 95 390 85 480 245 S760 425 830 255 C760 115 570 100 480 255 S210 425 130 260Z" fill="none" stroke="url(#line)" stroke-width="3" opacity=".38"/>
+<path d="M185 259 C255 150 375 145 465 255 S680 355 760 258" fill="none" stroke="#7dd3fc" stroke-width="2" opacity=".55"/>
+<g filter="url(#glow)" fill="none" stroke="url(#line)" stroke-width="2.5">
+ <circle cx="150" cy="260" r="62"/><circle cx="150" cy="260" r="46" stroke-dasharray="5 8"/>
+ <circle cx="360" cy="150" r="67"/><circle cx="360" cy="150" r="50" stroke-dasharray="5 8"/>
+ <circle cx="570" cy="260" r="67"/><circle cx="570" cy="260" r="50" stroke-dasharray="5 8"/>
+ <circle cx="785" cy="260" r="62"/><circle cx="785" cy="260" r="46" stroke-dasharray="5 8"/>
+</g>
+<g fill="#f8fafc" font-family="system-ui, sans-serif" text-anchor="middle">
+ <text x="150" y="250" font-size="18" font-weight="700">DISCOVER</text><text x="150" y="276" font-size="13" fill="#cbd5e1">a useful gap</text>
+ <text x="360" y="140" font-size="18" font-weight="700">DECIDE</text><text x="360" y="166" font-size="13" fill="#cbd5e1">policy + limits</text>
+ <text x="570" y="250" font-size="18" font-weight="700">DO + CHECK</text><text x="570" y="276" font-size="13" fill="#cbd5e1">bounded work</text>
+ <text x="785" y="250" font-size="18" font-weight="700">RECORD</text><text x="785" y="276" font-size="13" fill="#cbd5e1">evidence + outcome</text>
+ <text x="480" y="455" font-size="15" fill="#fde68a">If uncertain or out of scope: defer, reject, or stop.</text>
+ <text x="480" y="500" font-size="12" fill="#94a3b8">Concept illustration · not a screenshot of a running product</text>
+</g>
+<g fill="#f8fafc"><circle cx="150" cy="260" r="5"/><circle cx="360" cy="150" r="5"/><circle cx="570" cy="260" r="5"/><circle cx="785" cy="260" r="5"/></g>
+</svg>

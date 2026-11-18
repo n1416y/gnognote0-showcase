@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.gnognote0.showcase-update</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>__PYTHON_EXECUTABLE__</string>
+    <string>__SHOWCASE_SCRIPT__</string>
+    <string>--config</string><string>__LOCAL_POLICY_FILE__</string>
+    <string>--mode</string><string>publish</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>20</integer><key>Minute</key><integer>0</integer></dict>
+  <key>RunAtLoad</key><true/>
+  <key>Disabled</key><true/>
+  <key>ProcessType</key><string>Background</string>
+  <key>StandardOutPath</key><string>__LOCAL_AUDIT_DIR__/launchd.out</string>
+  <key>StandardErrorPath</key><string>__LOCAL_AUDIT_DIR__/launchd.err</string>
+</dict>
+</plist>

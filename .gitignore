@@ -1,0 +1,13 @@
+# Local-only updater policy and audit state
+local/private-policy.json
+local/audit/
+local/state/
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.DS_Store
+
+# Never commit an installed launch agent or machine-specific copy
+*.plist.local
