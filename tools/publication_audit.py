@@ -28,7 +28,7 @@ SENSITIVE = [
     re.compile(r"\b[A-Za-z]:\\(?:Users|home)\\[^\s`]+", re.I),
     re.compile(r"\bhidden\s+(?:code|message|answer|story)\b", re.I),
 ]
-ALLOWED_EXTERNAL = "https://github.com/n1416y/gnognote0-showcase.git"
+ALLOWED_EXTERNAL = {"https://github.com/n1416y/gnognote0-showcase.git", "https://github.com/n1416y/gnognote0-showcase"}
 
 
 def fail(code: str) -> None:
@@ -48,7 +48,7 @@ def scan_text(label: str, text: str) -> None:
     for target in LINK.findall(text):
         target = target.strip().split()[0].strip("<>")
         if target.startswith(("https://", "http://")):
-            if target != ALLOWED_EXTERNAL:
+            if target not in ALLOWED_EXTERNAL:
                 fail("EXTERNAL_LINK_NOT_ALLOWLISTED:" + label)
             continue
         if target.startswith("#"):
