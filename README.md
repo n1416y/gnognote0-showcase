@@ -4,7 +4,7 @@
 
 What would it take for an AI system to find a worthwhile task, do the work, and show its receipts—while knowing when to stop? gnognote0 explores that question through an evolving engineering project and a public-benefit hurricane-preparedness knowledge tool.
 
-> This repository is a curated project showcase, not the private development source. It describes experiments and locally verified candidates. It does not claim a production-ready autonomous agent, formal acceptance, or a public interactive experience.
+> This repository is a public project showcase, not the private development source. It describes experiments and locally verified candidates. It does not claim a production-ready autonomous agent, formal acceptance, or a public interactive experience.
 
 ## The idea
 
@@ -39,4 +39,4 @@ The intended system separates discovery, decision, bounded execution, and evalua
 
 ## Scope and release status
 
-This showcase is staged privately for review. Its public visibility has not been approved. It contains no application source, private history, operational configuration, credentials, private evaluation records, or third-party source documents. No open-source license is included. The draft LinkedIn post is for its author to review and publish personally.
+This public showcase contains no application source, private project history, operational configuration, credentials, private evaluation records, or third-party source documents. No open-source license is included. The LinkedIn post is an unposted draft for its author to review and publish personally.
