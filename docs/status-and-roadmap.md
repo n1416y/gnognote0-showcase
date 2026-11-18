@@ -1,6 +1,6 @@
 # Status and roadmap
 
-**Showcase status:** privately staged for owner review. **Product status:** active local engineering; no public autonomous runtime is claimed here.
+**Showcase status:** publicly available. **Product status:** active local engineering; no public autonomous runtime is claimed here.
 
 <!-- curated-status:start -->
 
