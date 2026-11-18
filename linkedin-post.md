@@ -12,7 +12,7 @@ The longer-term creative ambition is an experience where people can observe an A
 
 I’ve shaped the product direction, architecture, engineering priorities, and governance, while using AI-assisted coding tools to help implement and test the work. My background in technology strategy, procurement, and AI governance keeps bringing me back to the same question: how do we make capability useful and accountable at the same time?
 
-Showcase link: add after public approval.
+Showcase: [gnognote0 on GitHub](https://github.com/n1416y/gnognote0-showcase)
 
 ## Short alternative (about 88 words)
 
@@ -20,7 +20,7 @@ The difficult part isn’t getting an AI to act. It’s knowing when it shouldn�
 
 I’m building gnognote0 to explore useful, bounded autonomy: persistent context, self-directed engineering tasks, recovery, and evidence that makes decisions inspectable. A concrete thread is an offline hurricane-preparedness knowledge project, where provenance and stale information matter. The creative ambition is to let people observe and gently influence an AI’s work without controlling its purpose. It’s an experiment, not a finished product. I’m shaping the architecture and governance with AI-assisted coding tools.
 
-Showcase link: add after public approval.
+Showcase: [gnognote0 on GitHub](https://github.com/n1416y/gnognote0-showcase)
 
 ## Visual concept
 
