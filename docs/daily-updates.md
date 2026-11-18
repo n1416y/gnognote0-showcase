@@ -35,4 +35,4 @@ The seven tests cover meaningful progress, no-change days, injected private cont
 
 ## Operational status
 
-The scheduled follow-up is active at the time above. A direct no-change check against the current source baseline passed with manifest SHA-256 `d1d9fa09013469b2df2b1567dbb1236410bbce922a56e4fb7c43fed995cea2f1`, `PASS_LOCAL_MANIFEST`, readiness `STOP`, and execution authority `NOT_GRANTED`; no public update was created. The native LaunchAgent fallback is left disabled because its background launch did not complete baseline verification. No LinkedIn post has been published. The workflow is limited to this public showcase and cannot modify production systems or other public channels.
+The scheduled follow-up is active at the time above. A local dry run verified the current source baseline and found no new approved entry, so no public update was created. The native LaunchAgent fallback remains disabled because its background launch did not complete the check. No LinkedIn post has been published. The workflow is limited to this public showcase and cannot modify production systems or other public channels.
