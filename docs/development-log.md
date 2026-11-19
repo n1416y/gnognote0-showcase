@@ -13,3 +13,10 @@ Local package integrity, navigation, browser interaction, syntax, and focused re
 ## 2026-11-18 — A useful offline filter improvement
 
 A bounded local task improved how readers find recorded review context. Local checks passed; formal acceptance remains open.
+
+
+<!-- showcase-update:offline-safe-water-query-candidate-2026-11-19 -->
+
+## 2026-11-19 — A direct water-safety question reaches prepared guidance
+
+A new offline search candidate now maps the direct question “How long should I boil water?” to existing prepared emergency-water material, where the uncertainty and instruction to check current issuing-authority guidance remain visible. Local integrity and focused regression checks passed; browser evaluation and formal acceptance remain open. No live data or external source checks were used.
