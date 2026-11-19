@@ -4,7 +4,7 @@
 
 <!-- curated-status:start -->
 
-**Latest verified local update:** A bounded local filter candidate passed local checks; formal acceptance remains open.
+**Latest verified local update:** An offline search candidate now routes a direct water question to existing prepared guidance; local checks passed, while browser evaluation and formal acceptance remain open.
 
 <!-- curated-status:end -->
 
